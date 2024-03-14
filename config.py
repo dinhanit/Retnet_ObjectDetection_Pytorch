@@ -23,7 +23,7 @@ LOAD_MODEL = False
 LOAD_MODEL_FILE = "./overfit.pth.tar"
 IMG_DIR = "dataset/images"
 LABEL_DIR = "dataset/labels"
-
+num_classes = 20
 box_per_grid=2
 
 class Compose(object):
