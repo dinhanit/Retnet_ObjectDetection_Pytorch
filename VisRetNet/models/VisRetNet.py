@@ -506,7 +506,7 @@ class VisRetNet(nn.Module):
         self.norm = nn.BatchNorm2d(self.num_features)
         self.avgpool = nn.AdaptiveAvgPool1d(1)
         self.head = nn.Linear(self.num_features, num_classes) if num_classes > 0 else nn.Identity()
-        self.detector = nn.Conv2d(512, 30, kernel_size=1)
+        self.detector = nn.Conv2d(512, 5*2+self.num_classes, kernel_size=1)
 
         self.apply(self._init_weights)
 
