@@ -8,3 +8,12 @@
 ``` python
   python train.py
 ```
+# Tree
+├───dataset
+├───RetNet_LLM
+│   └───RetNet
+│       └───complex
+└───VisRetNet
+    ├───datasets
+    ├───models
+    └───util
