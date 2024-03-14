@@ -3,3 +3,8 @@
 # Reference
 - [RetNet_Vit](https://github.com/Prince5867/RetNet_ViT)
 - [RetNet](https://github.com/Jamie-Stirling/RetNet)
+
+# Usage
+``` python
+  python train.py
+```
