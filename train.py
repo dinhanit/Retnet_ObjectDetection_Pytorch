@@ -22,7 +22,7 @@ if LOAD_MODEL:
     load_checkpoint(torch.load(LOAD_MODEL_FILE), model, optimizer)
 
 train_dataset = VOCDataset(
-    "dataset/100examples.csv",
+    "dataset/train.csv",
     transform=transform,
     img_dir=IMG_DIR,
     label_dir=LABEL_DIR,
