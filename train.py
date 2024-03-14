@@ -11,7 +11,7 @@ from  VOC_dataset import VOCDataset
 from config import *
 
 
-model = RMT_S(num_classes=5).to(DEVICE)
+model = RMT_S(num_classes=num_classes).to(DEVICE)
 
 optimizer = optim.Adam(
     model.parameters(), lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY
